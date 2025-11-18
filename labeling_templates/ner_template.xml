@@ -1,0 +1,9 @@
+<View>
+  <Labels name="label" toName="text">
+  <Label value="APP" background="#228be6"/>
+  <Label value="SERVICE" background="#ff8c00"/>
+  <Label value="FEATURE" background="#2ecc71"/>
+  <Label value="FILE_TYPE" background="#9b59b6"/>
+  <Label value="UI_ELEMENT" background="#e74c3c"/></Labels>
+  <Text name="text" value="$text" granularity="word"/>
+</View>

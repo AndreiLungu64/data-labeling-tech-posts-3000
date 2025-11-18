@@ -1,0 +1,39 @@
+<View>
+  <Text name="text" value="$text"/>
+
+  <Header value="Intent" />
+  <Choices name="intent" toName="text" choice="single">
+    <Choice value="Optimization"/>
+    <Choice value="BugFix"/>
+    <Choice value="Readability"/>
+    <Choice value="Design"/>
+    <Choice value="LanguageHelp"/>
+  </Choices>
+
+  <Header value="Context" />
+  <Choices name="context" toName="text" choice="single">
+    <Choice value="WebDevelopment"/>
+    <Choice value="DataAlgorithms"/>
+    <Choice value="SystemCode"/>
+    <Choice value="GeneralProgramming"/>
+  </Choices>
+
+    <Header value="Programming Language" />
+  <Choices name="language" toName="text" choice="single">
+    <Choice value="Python">Python</Choice>
+    <Choice value="JavaScript">JavaScript</Choice>
+    <Choice value="C++">C++</Choice>
+    <Choice value="Java">Java</Choice>
+    <Choice value="C#">C#</Choice>
+    <Choice value="PHP">PHP</Choice>
+    <Choice value="Other">Other</Choice>
+  </Choices>
+
+  <Header value="Tone" />
+  <Choices name="tone" toName="text" choice="single">
+    <Choice value="Informative"/>
+    <Choice value="SeekingHelp"/>
+    <Choice value="Opinionated"/>
+    <Choice value="Neutral"/>
+  </Choices>
+</View>
