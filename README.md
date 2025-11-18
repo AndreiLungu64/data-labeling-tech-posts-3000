@@ -51,7 +51,7 @@ stackexchange-data-labeling/
    The `parse.py` script parses `Posts.xml` files, filters posts with ≥50 characters, and outputs the first 1000 entries per dataset as CSV files.
 
 2. **Data Annotation**
-   Custom **Label Studio templates** were created for each task (only for NER and Text classificaiton, for sentiment analysis we used the build-in template).
+   Custom Label Studio templates were created for the Text Classification and NER tasks, while the Sentiment Analysis task used Label Studio’s built-in “Text Classification” template.
 
    - Text Classification: `text_classification.xml`
    - Named Entity Recognition: `ner_template.xml`
